@@ -1,0 +1,36 @@
+/*******MCM Dashboard******/
+.mcm-dashboard-menu{ display: block; margin-top: 10px; }
+.mcm-dashboard-menu li{ display: inline; }
+.mcm-dashboard-menu li a{
+
+}
+
+/*******Form builder design******/
+.form-builder-table .form-editor{}
+.form-builder-table .form-buttons{}
+.form-builder-table .form-buttons .button {}
+.form-builder-table .mc-form-editor{ width: 100%; min-height: 250px; text-align: left; }
+
+
+/***Template Builder****/
+.use-template li{ width: 30%; float: left; margin: 1.5%; position: relative; text-align: center; }
+.use-template li .tpl-wrap{ border: 1px solid #dadada; padding: 10px; }
+.use-template li h3{ font-size: 14px; text-align: center; }
+.use-template li .use-this-template{ margin: 10px 0; }
+.wp-media-buttons .mcm-btn-beside-media{
+  background: #00B5F0;
+  border-color: #00B5F0 #00B5F0 #00B5F0;
+  box-shadow: 0 1px 0 #00B5F0;
+  text-shadow: none;
+}
+
+
+
+
+/***Media query****/
+@media screen and (max-width: 981px) {
+  .use-template li{ width: 46%; margin: 2%; }
+}
+@media screen and (max-width: 550px) {
+  .use-template li{ width: 100%; margin: 0%; float: none; }
+}

@@ -1,0 +1,164 @@
+.mcmanager-form-wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+}
+.mcmanager-form .error{ color: #ff0000; }
+.mcmanager-form .success{ color: #28a745; }
+
+.mcmanager-form label {
+	color: #333;
+	display: block;
+	font-weight: 800;
+	margin-bottom: 0.5em;
+}
+
+.mcmanager-form fieldset {
+	margin-bottom: 1em;
+}
+
+.mcmanager-form input[type="text"],
+.mcmanager-form input[type="email"],
+.mcmanager-form input[type="url"],
+.mcmanager-form input[type="password"],
+.mcmanager-form input[type="search"],
+.mcmanager-form input[type="number"],
+.mcmanager-form input[type="tel"],
+.mcmanager-form input[type="range"],
+.mcmanager-form input[type="date"],
+.mcmanager-form input[type="month"],
+.mcmanager-form input[type="week"],
+.mcmanager-form input[type="time"],
+.mcmanager-form input[type="datetime"],
+.mcmanager-form input[type="datetime-local"],
+.mcmanager-form input[type="color"],
+.mcmanager-form textarea {
+	color: #666;
+	background: #fff;
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+	border: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+	padding: 0.7em;
+	width: 100%;
+}
+
+.mcmanager-form input[type="text"]:focus,
+.mcmanager-form input[type="email"]:focus,
+.mcmanager-form input[type="url"]:focus,
+.mcmanager-form input[type="password"]:focus,
+.mcmanager-form input[type="search"]:focus,
+.mcmanager-form input[type="number"]:focus,
+.mcmanager-form input[type="tel"]:focus,
+.mcmanager-form input[type="range"]:focus,
+.mcmanager-form input[type="date"]:focus,
+.mcmanager-form input[type="month"]:focus,
+.mcmanager-form input[type="week"]:focus,
+.mcmanager-form input[type="time"]:focus,
+.mcmanager-form input[type="datetime"]:focus,
+.mcmanager-form input[type="datetime-local"]:focus,
+.mcmanager-form input[type="color"]:focus,
+.mcmanager-form textarea:focus {
+	color: #222;
+	border-color: #333;
+}
+
+.mcmanager-form select {
+	border: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	height: 3em;
+	max-width: 100%;
+}
+
+.mcmanager-form input[type="radio"],
+.mcmanager-form input[type="checkbox"] {
+	margin-right: 0.5em;
+}
+
+.mcmanager-form input[type="radio"] + label,
+.mcmanager-form input[type="checkbox"] + label {
+	font-weight: 400;
+}
+
+.mcmanager-form button,
+.mcmanager-form input[type="button"],
+.mcmanager-form input[type="submit"] {
+	background-color: #222;
+	border: 0;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 800;
+	line-height: 1;
+	padding: 1em 2em;
+	text-shadow: none;
+	-webkit-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+.mcmanager-form input + button,
+.mcmanager-form input + input[type="button"],
+.mcmanager-form input + input[type="submit"] {
+	padding: 0.75em 2em;
+}
+
+.mcmanager-form button.secondary,
+.mcmanager-form input[type="reset"],
+.mcmanager-form input[type="button"].secondary,
+.mcmanager-form input[type="reset"].secondary,
+.mcmanager-form input[type="submit"].secondary {
+	background-color: #ddd;
+	color: #222;
+}
+
+.mcmanager-form button:hover,
+.mcmanager-form button:focus,
+.mcmanager-form input[type="button"]:hover,
+.mcmanager-form input[type="button"]:focus,
+.mcmanager-form input[type="submit"]:hover,
+.mcmanager-form input[type="submit"]:focus {
+	background: #767676;
+}
+
+.mcmanager-form button.secondary:hover,
+.mcmanager-form button.secondary:focus,
+.mcmanager-form input[type="reset"]:hover,
+.mcmanager-form input[type="reset"]:focus,
+.mcmanager-form input[type="button"].secondary:hover,
+.mcmanager-form input[type="button"].secondary:focus,
+.mcmanager-form input[type="reset"].secondary:hover,
+.mcmanager-form input[type="reset"].secondary:focus,
+.mcmanager-form input[type="submit"].secondary:hover,
+.mcmanager-form input[type="submit"].secondary:focus {
+	background: #bbb;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+.mcmanager-form ::-webkit-input-placeholder {
+	color: #333;
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.mcmanager-form :-moz-placeholder {
+	color: #333;
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.mcmanager-form ::-moz-placeholder {
+	color: #333;
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	opacity: 1;
+	/* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+.mcmanager-form :-ms-input-placeholder {
+	color: #333;
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}

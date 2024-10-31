@@ -1,0 +1,749 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: RM MailChimp Manager\n"
+"POT-Creation-Date: 2018-10-09 10:06+0600\n"
+"PO-Revision-Date: 2018-10-09 10:06+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rm-mailchimp-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/class-campaign-manager.php:51
+msgctxt "post type general name"
+msgid "Campaign"
+msgstr ""
+
+#: inc/class-campaign-manager.php:52
+msgctxt "post type singular name"
+msgid "Campaign"
+msgstr ""
+
+#: inc/class-campaign-manager.php:53
+msgctxt "admin menu"
+msgid "Campaigns"
+msgstr ""
+
+#: inc/class-campaign-manager.php:54
+msgctxt "add new on admin bar"
+msgid "Campaign"
+msgstr ""
+
+#: inc/class-campaign-manager.php:55
+msgctxt "Campaign"
+msgid "Add New"
+msgstr ""
+
+#: inc/class-campaign-manager.php:56
+msgid "Add New Campaign"
+msgstr ""
+
+#: inc/class-campaign-manager.php:57
+msgid "New Campaign"
+msgstr ""
+
+#: inc/class-campaign-manager.php:58
+msgid "Edit Campaign"
+msgstr ""
+
+#: inc/class-campaign-manager.php:59
+msgid "View Campaign"
+msgstr ""
+
+#: inc/class-campaign-manager.php:60
+msgid "All Campaigns"
+msgstr ""
+
+#: inc/class-campaign-manager.php:61
+msgid "Search Campaigns"
+msgstr ""
+
+#: inc/class-campaign-manager.php:62
+msgid "Parent Campaigns:"
+msgstr ""
+
+#: inc/class-campaign-manager.php:63
+msgid "No Campaigns found."
+msgstr ""
+
+#: inc/class-campaign-manager.php:64
+msgid "No Campaigns found in Trash."
+msgstr ""
+
+#: inc/class-campaign-manager.php:75
+msgid "Campaign Description."
+msgstr ""
+
+#: inc/class-campaign-manager.php:97
+msgid "Campaign Title"
+msgstr ""
+
+#: inc/class-campaign-manager.php:98 inc/class-mcmanager-options.php:112
+msgid "Campaign List"
+msgstr ""
+
+#: inc/class-campaign-manager.php:99 inc/class-campaign-manager.php:597
+msgid "Template"
+msgstr ""
+
+#: inc/class-campaign-manager.php:100
+msgid "MC Status"
+msgstr ""
+
+#: inc/class-campaign-manager.php:101
+msgid "Date"
+msgstr ""
+
+#: inc/class-campaign-manager.php:160 inc/class-campaign-manager.php:520
+msgid "Campaign Preview"
+msgstr ""
+
+#: inc/class-campaign-manager.php:169 inc/mcmanager-dashboard.php:8
+msgid "Campaign Manager"
+msgstr ""
+
+#: inc/class-campaign-manager.php:169
+msgid "Campaigns"
+msgstr ""
+
+#: inc/class-campaign-manager.php:519 inc/class-mcmanager-options.php:445
+#: inc/mcmanager-dashboard.php:6 rm-mailchimp-manager.php:63
+msgid "Settings"
+msgstr ""
+
+#: inc/class-campaign-manager.php:579
+msgid "Campaign To Lists"
+msgstr ""
+
+#: inc/class-campaign-manager.php:594 inc/class-form-manager.php:200
+msgid "To which MailChimp lists should this form subscribe?"
+msgstr ""
+
+#: inc/class-campaign-manager.php:605 inc/class-mcmanager-options.php:227
+msgid "Select Template"
+msgstr ""
+
+#: inc/class-campaign-manager.php:619
+msgid ""
+"Selected template will use for campaign. Template must need to include "
+"{mcm_campaign_content} to replace campaign content."
+msgstr ""
+
+#: inc/class-campaign-manager.php:622
+msgid "All inactive features are required to premium license."
+msgstr ""
+
+#: inc/class-campaign-manager.php:678
+msgid ""
+"You have the Lite version of Mailchimp Manager, which limits you to 10 "
+"campaigns. Please <a href=\"https://mailchimpmanager.com/\" target=\"_blank"
+"\">upgrade to</a> the premium license if you need more."
+msgstr ""
+
+#: inc/class-campaign-manager.php:691
+msgid ""
+"This campaign have already been sent. Current update will not marged to "
+"mailchimp server."
+msgstr ""
+
+#: inc/class-form-manager.php:53
+msgctxt "post type general name"
+msgid "Forms"
+msgstr ""
+
+#: inc/class-form-manager.php:54
+msgctxt "post type singular name"
+msgid "Form"
+msgstr ""
+
+#: inc/class-form-manager.php:55
+msgctxt "admin menu"
+msgid "Forms"
+msgstr ""
+
+#: inc/class-form-manager.php:56
+msgctxt "add new on admin bar"
+msgid "Forms"
+msgstr ""
+
+#: inc/class-form-manager.php:57
+msgctxt "Form"
+msgid "Add New"
+msgstr ""
+
+#: inc/class-form-manager.php:58
+msgid "Add New Form"
+msgstr ""
+
+#: inc/class-form-manager.php:59
+msgid "New Form"
+msgstr ""
+
+#: inc/class-form-manager.php:60
+msgid "Edit Form"
+msgstr ""
+
+#: inc/class-form-manager.php:61
+msgid "View Form"
+msgstr ""
+
+#: inc/class-form-manager.php:62
+msgid "All Forms"
+msgstr ""
+
+#: inc/class-form-manager.php:63
+msgid "Search Forms"
+msgstr ""
+
+#: inc/class-form-manager.php:64
+msgid "Parent Forms:"
+msgstr ""
+
+#: inc/class-form-manager.php:65
+msgid "No Forms found."
+msgstr ""
+
+#: inc/class-form-manager.php:66
+msgid "No Forms found in Trash."
+msgstr ""
+
+#: inc/class-form-manager.php:76
+msgid "Form Description."
+msgstr ""
+
+#: inc/class-form-manager.php:98 inc/mcmanager-dashboard.php:7
+msgid "Form Manager"
+msgstr ""
+
+#: inc/class-form-manager.php:98
+msgid "Forms"
+msgstr ""
+
+#: inc/class-form-manager.php:120
+msgid "Form Name"
+msgstr ""
+
+#: inc/class-form-manager.php:121
+msgid "MailChimp List"
+msgstr ""
+
+#: inc/class-form-manager.php:122
+msgid "Shortcode"
+msgstr ""
+
+#: inc/class-form-manager.php:157 inc/class-mcmanager-options.php:445
+msgid "MailChimp Settings"
+msgstr ""
+
+#: inc/class-form-manager.php:159
+msgid "Form Fields"
+msgstr ""
+
+#: inc/class-form-manager.php:161
+msgid "Message"
+msgstr ""
+
+#: inc/class-form-manager.php:192
+msgid "Lists this form subscribes to"
+msgstr ""
+
+#: inc/class-form-manager.php:204
+msgid "Redirect to URL after successful sign-ups"
+msgstr ""
+
+#: inc/class-form-manager.php:208
+msgid ""
+"Leave empty or enter 0 for no redirect. Otherwise, use complete (absolute) "
+"URLs, including http://"
+msgstr ""
+
+#: inc/class-form-manager.php:212
+msgid "Enable double opt-in"
+msgstr ""
+
+#: inc/class-form-manager.php:216
+msgid "Yes"
+msgstr ""
+
+#: inc/class-form-manager.php:217
+msgid "No"
+msgstr ""
+
+#: inc/class-form-manager.php:220
+msgid ""
+"We strongly suggest keeping double opt-in enabled. Disabling double opt-in "
+"may result in abuse."
+msgstr ""
+
+#: inc/class-form-manager.php:230
+msgid "Form Shortcode"
+msgstr ""
+
+#: inc/class-form-manager.php:263
+msgid "Name"
+msgstr ""
+
+#: inc/class-form-manager.php:264
+msgid "Email"
+msgstr ""
+
+#: inc/class-form-manager.php:265
+msgid "Sign up"
+msgstr ""
+
+#: inc/class-form-manager.php:266
+msgid "Agree to terms"
+msgstr ""
+
+#: inc/class-form-manager.php:296
+msgid ""
+"Thank you, your sign-up request was successful! Please check your email "
+"inbox to confirm."
+msgstr ""
+
+#: inc/class-form-manager.php:297
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: inc/class-form-manager.php:298
+msgid "Please fill in the required fields."
+msgstr ""
+
+#: inc/class-form-manager.php:299
+msgid "Given email address is already subscribed, thank you!"
+msgstr ""
+
+#: inc/class-form-manager.php:308
+msgid "Successfully subscribed"
+msgstr ""
+
+#: inc/class-form-manager.php:316
+msgid "Invalid email address"
+msgstr ""
+
+#: inc/class-form-manager.php:324
+msgid "Required field missing"
+msgstr ""
+
+#: inc/class-form-manager.php:332
+msgid "Already subscribed"
+msgstr ""
+
+#: inc/class-form-manager.php:458
+msgid ""
+"You have the Lite version of Mailchimp Manager, which limits you to one "
+"form. Please <a href=\"https://mailchimpmanager.com/\" target=\"_blank"
+"\">upgrade to</a> the premium license if you need more."
+msgstr ""
+
+#: inc/class-form-shortcodes.php:130 inc/class-form-shortcodes.php:134
+msgid "Already exist error!"
+msgstr ""
+
+#: inc/class-form-shortcodes.php:147 inc/class-form-shortcodes.php:151
+msgid "Add new member to list error!"
+msgstr ""
+
+#: inc/class-mcadmin.php:90
+#, php-format
+msgid ""
+"Please <a href=\"%s\">enter your MailChimp API key</a> on the settings page  "
+"to connect mailchimp server."
+msgstr ""
+
+#: inc/class-mcadmin.php:101
+#, php-format
+msgid ""
+"Please <a href=\"%s\">re-save your MailChimp API key</a> on the settings "
+"page  to sync mailchimp list."
+msgstr ""
+
+#: inc/class-mcmanager-dashboard.php:43
+msgid "MailChimp Manager"
+msgstr ""
+
+#: inc/class-mcmanager-dashboard.php:43
+msgid "RM MailChimp"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:90
+msgid "General Settings"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:95
+msgid "Deactivation"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:97
+msgid "Form Slug"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:104
+msgid "Campaign Settings"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:109
+msgid "Campaign Slug"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:115
+msgid "Campaign Template"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:118 inc/class-mcmanager-options.php:251
+msgid "From Name"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:121 inc/class-mcmanager-options.php:262
+msgid "To Name"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:124 inc/class-mcmanager-options.php:273
+msgid "Replay To"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:127
+msgid "Time"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:131
+msgid "Schedule in Advance"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:135
+msgid "API Key Settings"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:140 inc/class-mcmanager-options.php:456
+msgid "API Key"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:159
+msgid "Delete all settings on deactivation."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:160
+msgid ""
+"DO NOT use this option, unless you want to remove ALL MailChimp Manager "
+"settings and data."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:176
+msgid "General settings successfully updated!"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:187
+msgid "Form page slug"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:188 inc/class-mcmanager-options.php:338
+msgid "Re-save WP Settings>Permalink if your campaign goes to a 404 page."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:213
+msgid ""
+"Default List when new campaign generated. If no list, please re-save api key "
+"settings again with valid api key."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:239
+msgid ""
+"Default template when new campaign generated. Please create template under "
+"RM Mailchimp => Templates to see available templates here."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:253
+msgid "The 'from' name on the campaign (not an email address)."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:264
+msgid "The campaign's custom ‘To’ name. Typically the first name merge field."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:275
+msgid ""
+"The reply-to email address for the campaign. Note: while this field is not "
+"required for campaign creation, it is required for sending."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:285
+msgid "07:00"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:287
+msgid ""
+"The date and time in UTC to schedule the campaign for delivery. Campaigns "
+"may only be scheduled to send on the quarter-hour (:00, :15, :30, :45). ex: "
+"09:15"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:300
+msgid ""
+"When checked, all publishd campaigns will visible in your website frontend!"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:323
+msgid ""
+"Campaign default schedule advance day when save with current date. Current "
+"day conflicts with mailchimp server schedule date."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:337
+msgid "Campaign page slug"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:362
+msgid "Campaign sttings successfully updated!"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:383
+msgid "Your MailChimp API key"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:390
+msgid "The API key for connecting with your MailChimp account."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:390
+msgid "Get your API key here."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:406
+msgid "Please re-save settings again to load mailchimp list."
+msgstr ""
+
+#: inc/class-mcmanager-options.php:425
+msgid ""
+"Connection failed to connect to MailChimp server. Try again later. Or API "
+"Key you entered is not valid!"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:433
+msgid "API key successfully updated!"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:454
+msgid "General"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:455
+msgid "Campaign"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:469
+msgid "MailChimp Manager Settings"
+msgstr ""
+
+#: inc/class-mcmanager-options.php:501
+msgid "Save Changes"
+msgstr ""
+
+#: inc/class-template-manager.php:49
+msgctxt "post type general name"
+msgid "Templates"
+msgstr ""
+
+#: inc/class-template-manager.php:50
+msgctxt "post type singular name"
+msgid "Template"
+msgstr ""
+
+#: inc/class-template-manager.php:51
+msgctxt "admin menu"
+msgid "Templates"
+msgstr ""
+
+#: inc/class-template-manager.php:52
+msgctxt "add new on admin bar"
+msgid "Templates"
+msgstr ""
+
+#: inc/class-template-manager.php:53
+msgctxt "Template"
+msgid "Add New"
+msgstr ""
+
+#: inc/class-template-manager.php:54
+msgid "Add New Template"
+msgstr ""
+
+#: inc/class-template-manager.php:55
+msgid "New Template"
+msgstr ""
+
+#: inc/class-template-manager.php:56
+msgid "Edit Template"
+msgstr ""
+
+#: inc/class-template-manager.php:57 inc/class-template-manager.php:99
+msgid "Template Preview"
+msgstr ""
+
+#: inc/class-template-manager.php:58
+msgid "Set Template Preview"
+msgstr ""
+
+#: inc/class-template-manager.php:59
+msgid "Remove Template Preview"
+msgstr ""
+
+#: inc/class-template-manager.php:60
+msgid "Use as Template Preview"
+msgstr ""
+
+#: inc/class-template-manager.php:61
+msgid "View Template"
+msgstr ""
+
+#: inc/class-template-manager.php:62
+msgid "All Templates"
+msgstr ""
+
+#: inc/class-template-manager.php:63
+msgid "Search Templates"
+msgstr ""
+
+#: inc/class-template-manager.php:64
+msgid "Parent Templates:"
+msgstr ""
+
+#: inc/class-template-manager.php:65
+msgid "No Templates found."
+msgstr ""
+
+#: inc/class-template-manager.php:66
+msgid "No Templates found in Trash."
+msgstr ""
+
+#: inc/class-template-manager.php:70
+msgid "Templates Description."
+msgstr ""
+
+#: inc/class-template-manager.php:100
+msgid "Add Pre-build Templates"
+msgstr ""
+
+#: inc/class-template-manager.php:122 inc/mcmanager-dashboard.php:9
+msgid "Template Manager"
+msgstr ""
+
+#: inc/class-template-manager.php:122
+msgid "Templates"
+msgstr ""
+
+#: inc/class-template-manager.php:359
+msgid "Preview"
+msgstr ""
+
+#: inc/class-template-manager.php:360
+msgid "Ready Templates"
+msgstr ""
+
+#: inc/class-template-manager.php:413
+msgid ""
+"Template must include {mcm_campaign_content} tag to replace campaign content"
+msgstr ""
+
+#: inc/class-template-manager.php:417
+msgid ""
+"Prebuild templates. Replace above content using below ready template and "
+"edit your own way."
+msgstr ""
+
+#: inc/class-template-manager.php:422
+msgid "1 Column"
+msgstr ""
+
+#: inc/class-template-manager.php:422 inc/class-template-manager.php:423
+#: inc/class-template-manager.php:424 inc/class-template-manager.php:425
+#: inc/class-template-manager.php:426 inc/class-template-manager.php:427
+#: inc/class-template-manager.php:428 inc/class-template-manager.php:429
+#: inc/class-template-manager.php:430
+msgid "Use This Template"
+msgstr ""
+
+#: inc/class-template-manager.php:423
+msgid "1 Column - Full Width"
+msgstr ""
+
+#: inc/class-template-manager.php:424
+msgid "1:2 Column"
+msgstr ""
+
+#: inc/class-template-manager.php:425
+msgid "1:2 Column - Full Width"
+msgstr ""
+
+#: inc/class-template-manager.php:426
+msgid "1:2:1 Column"
+msgstr ""
+
+#: inc/class-template-manager.php:427
+msgid "1:2:1 Column - Full Width"
+msgstr ""
+
+#: inc/class-template-manager.php:428
+msgid "1:3 Column"
+msgstr ""
+
+#: inc/class-template-manager.php:429
+msgid "1:3 Column - Full Width"
+msgstr ""
+
+#: inc/class-template-manager.php:430
+msgid "Simple Text"
+msgstr ""
+
+#: inc/class-template-manager.php:485
+msgid ""
+"You have the Lite version of Mailchimp Manager, which limits you to one "
+"template. Please <a href=\"https://mailchimpmanager.com/\" target=\"_blank"
+"\">upgrade to</a> the premium license if you need more."
+msgstr ""
+
+#: inc/mcmanager-dashboard.php:3
+msgid "MailChimp Manager Dashboard"
+msgstr ""
+
+#: inc/mcmanager-dashboard.php:13
+msgid "Latest campaigns"
+msgstr ""
+
+#: inc/mcmanager-functions.php:97
+msgid "Select List"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "RM MailChimp Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://mailchimpmanager.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"RM MailChimp Manager plugin manage subscriber, list, campaigns, campaign "
+"templates from wordpress admin. Add your site multiple subscription form in "
+"various way to get more and more subscribers."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MCManager Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rmweblab.com/"
+msgstr ""
